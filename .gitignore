@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production
+.next/
+out/
+
+# Environment variables - لا ترفع هذا الملف أبدًا
+.env
+.env.local
+.env.production
+
+# Debug
+npm-debug.log*
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
